@@ -1,9 +1,7 @@
-package streamsamples;
 
 public class LambdaExpExample {
 
     public static void main(String[] args) {
-
         LambdaExpExample obj = new LambdaExpExample();
         PerformOperation isOdd = number -> {
             if (number % 2 == 0)
@@ -28,11 +26,9 @@ public class LambdaExpExample {
         PerformOperation isPalindrome = number -> {
             return Integer.toString(number).equals(new StringBuilder(Integer.toString(number)).reverse().toString());
         };
-
         System.out.println(obj.checker(7, isOdd)); // prints true
         System.out.println(obj.checker(0, isPrime)); // prints false
         System.out.println(obj.checker(12321, isPalindrome));// prints true
-
     }
 
     interface PerformOperation {

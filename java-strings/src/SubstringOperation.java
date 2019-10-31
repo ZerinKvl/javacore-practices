@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class SubstringOperations {
+public class SubstringOperation {
     public static void main(String[] args) {
 
         // System.out.println(isPalindrome(" ama kasak"));
